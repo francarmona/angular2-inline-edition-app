@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
+
+  item: any = { };
+
+  constructor(){
+    this.item.image = '';
+  }
+
 }
