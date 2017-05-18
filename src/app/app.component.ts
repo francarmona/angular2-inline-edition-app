@@ -10,6 +10,8 @@ export class AppComponent {
 
   item: any = { };
 
+  content: string = 'Html content';
+
   constructor(){
     this.item.image = '';
   }
